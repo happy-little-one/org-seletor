@@ -1,5 +1,8 @@
 ## 组织选择组件
 
+![image](https://user-images.githubusercontent.com/13190639/175006558-7537bfd8-d6d3-437a-867f-f2d8d10749b2.png)
+
+
 本组件用 svelte 编写，编译成直接操作 dom 的语句，不依赖任何库与框架，可以跑在任意平台(前台，后台)，任意端(web 端, 移动端)，任意技术栈(react, vue，jquery)，支持 ie11.
 
 gzip 包体积(包含 icon 资源)仅 7kb 左右。
