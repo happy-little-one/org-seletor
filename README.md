@@ -1,6 +1,6 @@
 ## 组织选择组件
 
-![image](https://user-images.githubusercontent.com/13190639/175006558-7537bfd8-d6d3-437a-867f-f2d8d10749b2.png)
+![image](https://user-images.githubusercontent.com/13190639/175007916-1245042b-3883-4853-ac4f-e03f2f11ee99.png)
 
 
 本组件用 svelte 编写，编译成直接操作 dom 的语句，不依赖任何库与框架，可以跑在任意平台(前台，后台)，任意端(web 端, 移动端)，任意技术栈(react, vue，jquery)，支持 ie11.
@@ -51,15 +51,15 @@ select({
 
 ```
 [
-  { id: 10016, name: '中国移动广西公司', type: 'org' },
-  { id: 530845, name: '文秘档案室', type: 'dept', pid: 10016 },
-  { id: 530570, name: '新闻宣传室', type: 'dept', pid: 10016 },
-  { id: 530385, name: '公共关系室', type: 'dept', pid: 10016 },
-  { id: 530362, name: '安全管理室', type: 'dept', pid: 10016 },
-  { id: 8888975627, name: '吴莹', type: 'user', pid: 530845 },
-  { id: 8888971988, name: '林洁', pid: 530570, type: 'user' },
-  { id: 8888968243, name: '裴莉', pid: 530385, type: 'user' },
-  { id: 8888968635, name: '秦志军', pid: 530362, type: 'user' },
+  { id: 1, name: '公司', type: 'org' },
+  { id: 2, name: '部门', type: 'dept', pid: 1 },
+  { id: 3, name: '部门', type: 'dept', pid: 1 },
+  { id: 4, name: '部门', type: 'dept', pid: 1 },
+  { id: 5, name: '部门', type: 'dept', pid: 1 },
+  { id: 6, name: '人员', type: 'user', pid: 2 },
+  { id: 7, name: '人员', pid: 3, type: 'user' },
+  { id: 8, name: '人员', pid: 4, type: 'user' },
+  { id: 9, name: '人员', pid: 5, type: 'user' },
 ]
 
 // id: 实体id
